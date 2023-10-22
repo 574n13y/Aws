@@ -29,15 +29,12 @@ terraform destroy --->Destroying and preview the changes in terraform
 ```
 ![4](https://github.com/574n13y/Aws/assets/35293085/a52cb3f9-0c3f-4a0c-aa8d-479b63a096c7)
 
-```
-Output
-```
-![5](https://github.com/574n13y/Aws/assets/35293085/363fe757-73b7-42e2-8d4f-cc77e8f96ea5)
+## Output
+  ![5](https://github.com/574n13y/Aws/assets/35293085/363fe757-73b7-42e2-8d4f-cc77e8f96ea5)
 
-```
-Code
-```
-![6](https://github.com/574n13y/Aws/assets/35293085/e3f7d276-27dd-487b-a36a-2719baa12231)
+
+## Code
+  ![6](https://github.com/574n13y/Aws/assets/35293085/e3f7d276-27dd-487b-a36a-2719baa12231)
 
 # main.tf
 

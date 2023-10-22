@@ -6,7 +6,10 @@ data "aws_ami" "windows-2012-r2" {
     values = ["Windows_Server-2012-R2_RTM-English-64Bit-Base-*"]
   }
 }
-
+  filter {
+    name = "platform"
+    values = ["windows"]
+  }
   filter {
     name   = "root-device-type"
     values = ["ebs"]

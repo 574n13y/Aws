@@ -1,10 +1,12 @@
-data "aws_ami" "amzlinux" {
+data "aws_ami" "windows-2012-r2" {
   most_recent = true
   owners      = ["amazon"]
   filter {
     name   = "name"
-    values = ["amzn2-ami-hvm-*-gp2"]
+    values = ["Windows_Server-2012-R2_RTM-English-64Bit-Base-*"]
   }
+}
+
   filter {
     name   = "root-device-type"
     values = ["ebs"]

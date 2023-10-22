@@ -4,6 +4,7 @@
 
 - Design your own personal website or download an existing template.
 - In my case I have used my github portfolio.
+- [Github](https://574n13y.github.io/)
 
 ## Step #2: Purchase a Custom Domain through Amazon Route 53
 
@@ -32,8 +33,13 @@
 
 - Set the bucket permissions to allow public access.
   ![bucket policy](https://github.com/574n13y/Aws/assets/35293085/4ac0e414-74b9-4d3f-b934-7e4ad0d01311)
+  
   ![index file](https://github.com/574n13y/Aws/assets/35293085/8a5d119e-f9f6-4a68-bb0a-909dbe59fbc4)
+  
   ![open file from bucket link](https://github.com/574n13y/Aws/assets/35293085/e241e888-b9b2-40dd-b460-0728119cf20b)
+
+## Result 
+  ![output](https://github.com/574n13y/Aws/assets/35293085/707c4b2b-22f8-4624-8ecb-1104e98c9497)
 
 
   

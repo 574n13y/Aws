@@ -74,12 +74,10 @@ variable "types" {
 ```
 ## init, fmt, plan , apply, destroy 
 
-```
-[plan](https://github.com/574n13y/basic_scripts/blob/main/plan.sh/) 
-```
-```
-[apply](https://github.com/574n13y/basic_scripts/blob/main/apply.sh/) 
-```
-```
-[destroy](https://github.com/574n13y/basic_scripts/blob/main/destroy.sh/) 
-```
+- [plan](https://github.com/574n13y/basic_scripts/blob/main/plan.sh/) 
+
+- [apply](https://github.com/574n13y/basic_scripts/blob/main/apply.sh/) 
+
+
+- [destroy](https://github.com/574n13y/basic_scripts/blob/main/destroy.sh/) 
+

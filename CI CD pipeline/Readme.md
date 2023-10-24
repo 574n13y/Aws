@@ -3,14 +3,14 @@
 ## Will leverage Docker containers and Docker Hub for containerization and image management. This project focuses on automating the deployment process, ensuring seamless integration and delivery of the application.
 
 - create a new instance. 
-· Name: Ubuntu
-· AMI: ubuntu.
-· Instance type: t2.micro (free tier).
-· Key pair login: Create > docker.pem.  - (Download the .pem file.)
-· Allow HTTP.
-· Allow HTTPS.
+- Name: Ubuntu
+- AMI: ubuntu.
+- Instance type: t2.micro (free tier).
+- Key pair login: Create > docker.pem.  - (Download the .pem file.)
+- Allow HTTP.
+- Allow HTTPS.
 
- - Click on Launch Instance, then connect to the EC2 instance and install following packages
+ - Click on Launch Instance, then connect to the EC2 instance and install the following packages
    ![dev1](https://github.com/574n13y/Aws/assets/35293085/766ccb13-ef1d-43e3-a1f6-3b23b5f53234)
 
  - Docker installation
@@ -53,7 +53,7 @@
 - Copy the Public Ip of the machine and paste it to the browser to access the Jenkins portal.
   ![dev7](https://github.com/574n13y/Aws/assets/35293085/2d155e05-be53-4b7e-8a78-2016fc7f28ec)
 
-- We need an Administrator Password to unlock this. Run following command
+- We need an Administrator Password to unlock this. Run the following command
   ```
   cat /var/lib/jenkins/secrets/initialAdminPassord
   ```
@@ -71,7 +71,7 @@
 - From Jenkins Dashboard, Click on “New Item”.
   ![dev13](https://github.com/574n13y/Aws/assets/35293085/9c1b0b89-e917-4675-9daf-01460dcaa8ab)
 
-- Add name as
+- Add the name as
   ```
   Name: first-cicd-pipe
   Project: Pipeline
@@ -79,12 +79,12 @@
   ```
   ![dev14](https://github.com/574n13y/Aws/assets/35293085/cab1c42f-f682-4562-85a9-2e339e373b85)
 
-- we have to configure pipeline as follows
+- we have to configure the pipeline as follows
 -   Dashboards > notes-app-cicd > configuration > general
 -   Check✅Github project
 -   Github project link
 -   Check ✅GitHub hook trigger for GITScm polling
--   Put this basic Declarative pipeline code in script dialog box
+-   Put this basic Declarative pipeline code in a script dialog box
   ```
     pipeline {
       agent any
@@ -113,7 +113,7 @@
        }
       }
   ```   
-- Click on Save button and start the build on pipeline page
+- Click on the Save button and start the build on the pipeline page
   ![dev15](https://github.com/574n13y/Aws/assets/35293085/2c0707e1-2fd4-45d9-a508-7aae778e7051)
   ![dev16](https://github.com/574n13y/Aws/assets/35293085/998b9f98-6bdb-4862-8efe-112a04a74686)
   ![dev17](https://github.com/574n13y/Aws/assets/35293085/e19e8c1d-9b1b-4aa4-a1dd-b1f7e5ae01e0)

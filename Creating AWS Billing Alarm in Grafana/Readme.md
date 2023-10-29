@@ -29,5 +29,26 @@
    - Now setting up notification policies click on manage notification policies.
 
    - Select Label and value for notification then select contact point which was previously created.
+The first task is done Now let’s do the second task.
+In this Task we have to set alert for you don’t spend too much money on aws services.
+Select Manage alert rule.
+Select matrics aws_billing_estimated_charges_average and sum of them.
+Select thread as 10$.
+Add new notification policy for billing above 10$.
+Here is both alerts are set for aws ec2 instance if the conditions triggered then you will get mail from alert system.
+
+
+
+
+
+# Here is our Today’s Task-01 :
+Setup Grafana cloud
+Go to the link https://www.grafana.com/ and create an account.
+Now you can see Home Page of Grafana.
+Now Connect your desired data sources to Grafana Cloud. This could include Prometheus, InfluxDB, Elasticsearch, or other compatible data sources.
+Click Here and Follow Task 03 For next steps.
+We already created visualized dashboard in our previous story.
+Grafana Alerting is a game-changer in the world of monitoring. With its seamless integration into Grafana’s powerful UI and the ability to leverage various data sources, it empowers teams to proactively detect and address issues in their systems.
+By following the tasks outlined in this blog, you’ve taken the first steps towards harnessing the full potential of Grafana Alerting. Stay tuned for more monitoring insights and tips as we continue our journey towards mastering the art of monitoring!
 
 

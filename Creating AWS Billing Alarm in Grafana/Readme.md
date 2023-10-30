@@ -1,3 +1,6 @@
+
+
+
 # Creating AWS Billing Alarm in Grafana
 
 ## Task - Setup Grafana Monitoring for EC2 instance
@@ -53,3 +56,30 @@
    - By following the tasks outlined in this blog, you’ve taken the first steps towards harnessing the full potential of Grafana Alerting. Stay tuned for more monitoring insights and tips as we continue our journey towards mastering the art of monitoring!
 
 
+
+
+# Amazon App Deployment: A DevSecOps Approach with Terraform and Jenkins CI/CD
+
+  - Step1: create an IAM user
+     Navigate to the AWS console
+     Click the “Search” field.
+     Search for IAM
+     Click “Users”
+     Click “Add users”
+     Click the “User name” field.
+     Type “Terraform” or as you wish about the name
+     Click Next
+     Click “Attach policies directly”
+     Click this checkbox with Administrator access
+     Click “Next”
+     Click “Create user”
+     Click “Security credentials”
+     Click “Create access key”
+     Click Next
+
+  - Step2: Aws Configure
+     Provide your Aws Access key and Secret Access key
+     
+  - Step3: Terraform files and Provision Jenkins,sonar
+     main.tf
+       

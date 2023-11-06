@@ -57,7 +57,7 @@ Let's Create an EC2 instance.
     curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/local-hostname
     ```
  
-   You can find more commands to retrieve metadata using IMD5Sv2 here [IMD5Sv2]()
+   You can find more commands to retrieve metadata using IMD5Sv2 here [IMD5Sv2.sh]()
 
    
 

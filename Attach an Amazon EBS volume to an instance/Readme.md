@@ -25,8 +25,21 @@ Let's Create an EC2 instance using Terraform.
   - Choose Attach volume.
     ![Capture12](https://github.com/574n13y/Aws/assets/35293085/ed1c336e-8b35-4328-91f4-dafb0e9511fb)
     ![Capture13](https://github.com/574n13y/Aws/assets/35293085/c66e1a7b-7822-43ed-94df-e8658ff75a7d)
-  - Open server 
-  - Connect to the instance and mount the volume.
+
+  ## Connect to the instance and mount the volume.
+  - In EC2 instance (windows machine) open the server manager -> click on File and Storage services -> click on Disks -> click on Volume recently added -> select Bring the Online option
+    ![Capture4](https://github.com/574n13y/Aws/assets/35293085/167d33b1-17be-40c1-af09-40f5380d4917)
+    ![Captur5](https://github.com/574n13y/Aws/assets/35293085/6c71cd6c-1f80-4c2b-81a7-9def165f45f1)
+    ![Capture6](https://github.com/574n13y/Aws/assets/35293085/f537dd55-902c-412d-944c-66623226f7ca)
+    
+  - Mount the volume
+    ![Capture7](https://github.com/574n13y/Aws/assets/35293085/a71adc6c-3726-4b9f-8ad2-59ab3359e50f)
+
+  - Let's cross-check the drive on This PC.
+    ![Capture8](https://github.com/574n13y/Aws/assets/35293085/7afa3a82-d57f-40bf-aad4-2c070539427f)
+
+## We did it !!!
+
     
 
 ## AWS Tools for Windows PowerShell

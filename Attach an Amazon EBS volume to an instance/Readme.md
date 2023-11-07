@@ -18,10 +18,16 @@ Let's Create an EC2 instance using Terraform.
     ![Capture9](https://github.com/574n13y/Aws/assets/35293085/ff95b67f-89e4-41b6-a80f-6e3079e5263f)
 
   - Select the volume to attach and choose Actions, Attach volume.
+    ![Capture11](https://github.com/574n13y/Aws/assets/35293085/35f650f3-059a-4903-8849-b2bcd0a75546)
+    ![Capture10](https://github.com/574n13y/Aws/assets/35293085/26806d5a-6c0b-44ee-b58e-fa3e798943b9)
   - For Instance, enter the ID of the instance or select the instance from the list of options.
   - For the Device name, enter a supported device name for the volume. This device name is used by Amazon EC2. The block device driver for instance might assign a different device name when mounting the volume. For more information, see Device names on Linux instances.
   - Choose Attach volume.
+    ![Capture12](https://github.com/574n13y/Aws/assets/35293085/ed1c336e-8b35-4328-91f4-dafb0e9511fb)
+    ![Capture13](https://github.com/574n13y/Aws/assets/35293085/c66e1a7b-7822-43ed-94df-e8658ff75a7d)
+  - Open server 
   - Connect to the instance and mount the volume.
+    
 
 ## AWS Tools for Windows PowerShell
    ```

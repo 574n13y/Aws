@@ -1,7 +1,7 @@
 # aws-free-tier-infrastructure
 
 
-## create key pair
+## Create key pair
 
     1. ssh-keygen -t rsa -b 4096 -C "" -f "$HOME/.ssh/my-key-pair" -N ""
     2. sudo cp "$HOME/.ssh/my-key-pair" "$HOME/.ssh/my-key-pair.pem"
@@ -11,21 +11,18 @@
 
 ## create infrastructure
 
-    ```
+    
     1. cd infrastructure
-    ```
-    ```
+   
     2. tf init
-    ```
-    ```
-    3. tf plan
-    ```
-    ```
-    3. tf apply
-    ```
-    ```
-    tf destroy
-    ```
-    ```
-    tf fmt
-    ```
+
+    3. tf fmt
+  
+    4. tf plan
+  
+    5. tf apply
+  
+    6. tf destroy
+  
+   
+   

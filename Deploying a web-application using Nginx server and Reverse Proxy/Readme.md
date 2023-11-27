@@ -1,6 +1,7 @@
 # Deploying a web application using Nginx server and Reverse Proxy
 
 - Architecture of Nginx
+  
   ![image](https://github.com/574n13y/Aws/assets/35293085/52aed881-f89d-455b-bef1-d7f969eadb77)
   ![image](https://github.com/574n13y/Aws/assets/35293085/b6e561e7-946f-40de-ae37-d661c722b41c)
 
@@ -36,6 +37,50 @@
  - take the public IP of the server and try accessing it in a browser, to check if the Nginx is installed properly.
  - The above page is been accessed from /var/www/html
  - check the Nginx configuration files here:
+ - To deploy some applications you can go to /var/www/html create an index.html file and add your html code and you can access the same using the public IP of the server.
+ - Check on the browser by entering the IP address. You will see below home page below.
    
+## Task 2
+  - clone the source code repository. Use command:
+  - install docker. Use command:
+  - Check docker status:
+  - check if docker is working fine.
+  - Permission denied because this user doesn’t have access to docker. So we will give this user permission. Use command:
+  - After this reboot the server.
+  - Here is the Dockerfile :
+  - Now we will start the build process of the application. Use command :
+  - The image has been created successfully.
+  - Now using this image we will create a container. Use the below command:
+  - Now do #docker ps and check if the container is created properly and it has been tagged to the 8000 port so that we can access the same on that port.
+  - This application is now running on the local host and we can check it using the command:
+
+## Task 3
+  - we want to give access to the application by using the concept of reverse proxy so that the clients can access the same.
+  - For this, we need to change the configuration of Nginx so for that go to /etc/nginx/sites-enabled
+  - Now we will update the default file for changing the configuration.
+  - Here we have added a proxy address for the incoming traffic.
+  - After adding this we need to restart the nginx so that the updates will work. Use the below command to restart Nginx.
+  - Now you can access the application using the IP address.
+  - Now the app is accessible but we are not able to update or delete the notes here because the backend code is not updated here to store such data.
+  - For this, we need to copy all the static files of the application to the location Nginx root folder /var/www/html so that we can access it.
+  - Use the command :
+  - Now we need to update the location /API for the backend page of the server. Go to /etc/nginx/sites-enabled location and update the code.
+  - Save it and you need to restart the service.
+  - After restarting you can go on the browser and check accessing the notes app and try adding your notes to it. You will be able to do that.
+  - In this way, we did deploy our web application using the Nginx server.
+
+    
+
+
+  - 
+
+
+
+
+
+
+
+
+
 
    

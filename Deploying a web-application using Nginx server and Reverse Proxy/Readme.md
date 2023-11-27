@@ -1,27 +1,39 @@
-# Deploying a web-application using Nginx server and Reverse Proxy
+# Deploying a web application using Nginx server and Reverse Proxy
 
 - Architecture of Nginx
-   ![image](https://github.com/574n13y/Aws/assets/35293085/52aed881-f89d-455b-bef1-d7f969eadb77)
+  ![image](https://github.com/574n13y/Aws/assets/35293085/52aed881-f89d-455b-bef1-d7f969eadb77)
 
   ![image](https://github.com/574n13y/Aws/assets/35293085/b6e561e7-946f-40de-ae37-d661c722b41c)
 
 ## Task 1
   - create an AWS EC2 instance. I have selected the Ubuntu image while creating the EC2 instance. Add inbound traffic rules for HTTP, and HTTPS.
+    ![1](https://github.com/574n13y/Aws/assets/35293085/e430d0ec-5e05-48ad-b0c8-dc1b51405819)
+
   - After this SSH into the instance.
-  - update the instance. Use command:-
+    ![2](https://github.com/574n13y/Aws/assets/35293085/918ae27e-2961-4afa-a9ec-605916eadbf3)
+    
+  - update the instance. Use the command:-
+
      ```
      sudo apt-get update
      ```
+     ![3](https://github.com/574n13y/Aws/assets/35293085/ce78cdd3-c9a2-42ce-b886-c3d8e289bfe5)
+
   - need to install Nginx. Use command:
     ```
     sudo apt install nginx
     ```
+    ![4](https://github.com/574n13y/Aws/assets/35293085/12f5f992-cc6c-4c83-9e63-474c1b3a79af)
+
   - Check if the Nginx is in a running state. Use command:
     ```
     systemctl status nginx
     systemctl restart nginx 
             (if asked for password do sudo systemctl restart nginx)
     ```
+    ![5](https://github.com/574n13y/Aws/assets/35293085/c4433d06-a3a2-4ec8-843c-505b87365a2c)
+    ![6](https://github.com/574n13y/Aws/assets/35293085/d8a91a8a-a577-42fd-b670-8744846abb03)
+
  - take the public IP of the server and try accessing it in a browser, to check if the Nginx is installed properly.
  - The above page is been accessed from /var/www/html
  - check the Nginx configuration files here:

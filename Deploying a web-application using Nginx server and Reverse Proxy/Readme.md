@@ -118,7 +118,7 @@
   - In this way, we did deploy our web application using the Nginx server.
 
     
-                     *** ***
+                     *** ***  ******************************  *** ***
 
 
 

@@ -24,6 +24,82 @@
    7. Terraform Files in Source Code Management (SCM)
    8. IAM Role for Jenkins EC2 Instance
    9. GitHub Repository
+  
+
+## Task 1 - Launch an Ubuntu(22.04) T2 Large Instance
+  - Launch an AWS T2 Large Instance. Use the image as Ubuntu. You can create a new key pair or use an existing one. Enable HTTP and HTTPS settings in the Security Group and open all ports.
+
+## Task 2 - Install Jenkins, Docker and Trivy
+  - To Install Jenkins -> Connect to your console, and enter these commands to Install Jenkins
+    ```
+    vi jenkins.sh
+    ```
+
+    ```
+    #!/bin/bash
+    sudo apt update -y
+    wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | tee /etc/apt/keyrings/adoptium.asc
+    echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | tee /etc/apt/sources.list.d/adoptium.list
+    sudo apt update -y
+    sudo apt install temurin-17-jdk -y
+    /usr/bin/java --version
+    curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+                  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+                  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+                              /etc/apt/sources.list.d/jenkins.list > /dev/null
+    sudo apt-get update -y
+    sudo apt-get install jenkins -y
+    sudo systemctl start jenkins
+    sudo systemctl status jenkins
+    
+    ```
+
+    ```
+    sudo chmod 777 jenkins.sh
+    ./jenkins.sh
+    ```
+  - Once Jenkins is installed, we need to go to our AWS EC2 Security Group and open Inbound Port 8080, since Jenkins works on Port 8080.
+  - Grab Public IP Address
+  - Unlock Jenkins using an administrative password and install the suggested plugins.
+  - Jenkins will now get installed and install all the libraries.
+  - Create a user click on save and continue.
+  - Jenkins Getting Started Screen.
+
+## Task 3 - Install Docker
+    ```
+    sudo apt-get update 
+    sudo apt-get install docker.io -y 
+    sudo usermod -aG docker $USER 
+    newgrp docker 
+    sudo chmod 777 /var/run/docker.sock
+    
+    ```
+  -  After the docker installation, we create a sonarqube container (Remember to add 9000 ports in the security group).
+    
+    ```
+    docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+    ```
+  -  Now our sonarqube is up and running
+  -  Enter username and password, click on login and change password
+    ```
+    username admin
+    password admin
+    ```
+  -  Update New password, This is Sonar Dashboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
        
 
 

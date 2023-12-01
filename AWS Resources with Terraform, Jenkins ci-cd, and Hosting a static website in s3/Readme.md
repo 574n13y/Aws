@@ -80,13 +80,68 @@
     ```
     docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
     ```
-  -  Now our sonarqube is up and running
-  -  Enter username and password, click on login and change password
+  - Now our sonarqube is up and running
+  - Enter username and password, click on login and change password
     ```
     username admin
     password admin
     ```
-  -  Update New password, This is Sonar Dashboard.
+  - Update New password, This is Sonar Dashboard.
+  - Install Trivy
+    ```
+    sudo apt-get install wget apt-transport-https gnupg lsb-release -y
+    wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null
+    echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee -a /etc/apt/sources.list.d/trivy.list
+    sudo apt-get update
+    sudo apt-get install trivy -y
+    ```
+
+## Task 3 - Install Plugins like JDK, Sonarqube Scanner, Terraform
+ - Install Plugin
+ - Go to Manage Jenkins →Plugins → Available Plugins → Install below plugins
+   1. Eclipse Temurin Installer (Install without restart)
+   2. Eclipse Temurin Installer (Install without restart)
+   3. Terraform
+   ```
+   wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+   echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+   sudo apt update && sudo apt install terraform
+   ```
+   ```
+   terraform --version
+   which terraform
+   ```
+  - Configure Java and Terraform in Global Tool Configuration --> Go to Manage Jenkins → Tools → Install JDK(17) → Click on Apply and Save
+  - Tools → Terraform -> Apply and save.
+  - Configure Sonar Server in Manage Jenkins --> Grab the Public IP Address of your EC2 Instance, Sonarqube works on Port 9000, so <Public IP>:9000. Goto your Sonarqube Server. Click on Administration → Security → Users → Click on Tokens and Update Token → Give it a name → and click on Generate Token.
+  - copy Token → Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
+  - The Configure System option is used in Jenkins to configure different servers → Global Tool Configuration is used to configure different tools that we install using → Plugins We will install a sonar scanner in the tools.
+  - In the Sonarqube Dashboard add a quality gate also Administration → Configuration → Webhooks → Click on Create → Add details
+    `
+    <http://jenkins-public-ip:8080>/sonarqube-webhook/
+    `
+
+## Task 4 -  Create an IAM, S3 bucket and Dynamo DB table
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 

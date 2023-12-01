@@ -75,7 +75,7 @@
     sudo chmod 777 /var/run/docker.sock
     
     ```
-  -  After the docker installation, we create a sonarqube container (Remember to add 9000 ports in the security group).
+  - After the docker installation, we create a sonarqube container (Remember to add 9000 ports in the security group).
     
     ```
     docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
@@ -113,7 +113,8 @@
    ```
   - Configure Java and Terraform in Global Tool Configuration --> Go to Manage Jenkins → Tools → Install JDK(17) → Click on Apply and Save
   - Tools → Terraform -> Apply and save.
-  - Configure Sonar Server in Manage Jenkins --> Grab the Public IP Address of your EC2 Instance, Sonarqube works on Port 9000, so <Public IP>:9000. Goto your Sonarqube Server. Click on Administration → Security → Users → Click on Tokens and Update Token → Give it a name → and click on Generate Token.
+  - Configure Sonar Server in Manage Jenkins --> Grab the Public IP Address of your EC2 Instance, Sonarqube works on Port 9000, so <Public IP>:9000. Goto your Sonarqube Server. Click on Administration → Security → Users → Click on Tokens and Update Token → Give it a 
+    name → and click on Generate Token.
   - copy Token → Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
   - The Configure System option is used in Jenkins to configure different servers → Global Tool Configuration is used to configure different tools that we install using → Plugins We will install a sonar scanner in the tools.
   - In the Sonarqube Dashboard add a quality gate also Administration → Configuration → Webhooks → Click on Create → Add details

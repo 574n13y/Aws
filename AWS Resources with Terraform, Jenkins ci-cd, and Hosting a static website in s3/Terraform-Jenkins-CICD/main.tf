@@ -1,11 +1,11 @@
-resource "aws_instance" "Ajay" {
+resource "aws_instance" "ec2" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
   key_name               = var.key_name
   vpc_security_group_ids = [aws_security_group.ec2_security_group.id]
   user_data              = base64encode(file("website.sh"))
   tags = {
-    Name = "Aj-EC2"
+    Name = "Ss_EC2"
   }
 }
 
@@ -56,6 +56,6 @@ resource "aws_security_group" "ec2_security_group" {
   }
 
   tags = {
-    Name = "Aj_sg"
+    Name = "Ss_sg"
   }
 }

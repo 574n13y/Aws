@@ -123,7 +123,8 @@
     `
 
 ## Task 4 -  Create an IAM, S3 bucket and Dynamo DB table
-   
+  - Navigate to AWS CONSOLE -> Click the “Search” field. -> Type “IAM enter” -> Click “Roles” -> Click “Create role” -> Click “AWS service”  -> Click “Choose a service or use case” -> Click “EC2” -> Click “Next”
+  - 
 
 
 

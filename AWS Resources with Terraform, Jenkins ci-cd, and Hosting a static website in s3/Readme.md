@@ -130,7 +130,32 @@
   - Search for S3 in console ->  “Create bucket”
   - Click the “Search” field. Search for DynamoDB and click on it.
   - Click “Create table”
-  - Click the “Table name” field. enter “dynamodb_table = “mrcloudbook-dynamo-db-table”” -> Click the “Enter the partition key name” field. -> Type “LockID”
+  - Click the “Table name” field. enter “dynamodb_table = “mrcloudbook-dynamo-db-table”” -> Click the “Enter the partition key name” field. -> Type “LockID” -> Click “Create table”
+
+## Docker Plugin setup
+  - We need to install the Docker tool in our system, Goto Dashboard → Manage Plugins → Available plugins → Search for Docker and install these plugins
+    ```
+    Docker
+    Docker Commons
+    Docker Pipeline
+    Docker API
+    docker-build-step
+    ```
+  - and click on install without restart
+  - Now, go to Dashboard → Manage Jenkins → Tools → Add Docker Hub Username and Password under Global Credentials
+
+    ```
+    Let’s check the Terraform code Now.
+    ```
+
+
+
+
+
+
+
+
+
 
 
 

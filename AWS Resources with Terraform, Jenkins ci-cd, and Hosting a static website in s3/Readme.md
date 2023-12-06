@@ -124,7 +124,16 @@
 
 ## Task 4 -  Create an IAM, S3 bucket and Dynamo DB table
   - Navigate to AWS CONSOLE -> Click the “Search” field. -> Type “IAM enter” -> Click “Roles” -> Click “Create role” -> Click “AWS service”  -> Click “Choose a service or use case” -> Click “EC2” -> Click “Next”
-  - 
+  - Click the “Search” field. -> Add permissions policies -> AmazonEC2FullAccess -> Click the “Search” field. -> AmazonS3FullAccess -> Search -> AmazonDynamoDBFullAccess -> click Next -> Click the “Role name” field. -> Type “Jenkins-cicd” -> Click “Create role”
+  - Click “EC2” -> go to the Jenkins instance and add this role to the Ec2 instance. -> select Jenkins instance → Actions → Security → Modify IAM role
+  - Add a newly created Role and click on Update IAM role.
+  - Search for S3 in console -> Click “Create bucket” 
+
+
+
+
+
+
 
 
 

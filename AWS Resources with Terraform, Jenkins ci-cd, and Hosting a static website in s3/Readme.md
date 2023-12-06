@@ -127,7 +127,14 @@
   - Click the “Search” field. -> Add permissions policies -> AmazonEC2FullAccess -> Click the “Search” field. -> AmazonS3FullAccess -> Search -> AmazonDynamoDBFullAccess -> click Next -> Click the “Role name” field. -> Type “Jenkins-cicd” -> Click “Create role”
   - Click “EC2” -> go to the Jenkins instance and add this role to the Ec2 instance. -> select Jenkins instance → Actions → Security → Modify IAM role
   - Add a newly created Role and click on Update IAM role.
-  - Search for S3 in console -> Click “Create bucket” 
+  - Search for S3 in console ->  “Create bucket”
+  - Click the “Search” field. Search for DynamoDB and click on it.
+  - Click “Create table”
+  - Click the “Table name” field. enter “dynamodb_table = “mrcloudbook-dynamo-db-table”” -> Click the “Enter the partition key name” field. -> Type “LockID”
+
+
+
+
 
 
 

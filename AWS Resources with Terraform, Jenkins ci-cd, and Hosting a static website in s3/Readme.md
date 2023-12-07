@@ -210,6 +210,22 @@
 }
   ```
 
+## Method 1: Add User to the sudo Group
+  - Log in to your Ubuntu system as a user with sudo privileges, or log in as the root user.
+  - Open a terminal
+  - Run the following command to add a user (replace <username> with the actual username) to the sudo group:
+    ```
+     sudo usermod -aG sudo <username>
+     sudo apt update
+    ```
+  - After running the command, the user will have sudo privileges. They can now execute commands with superuser privileges using ` sudo `.
+  - install aqua security
+    ```
+    curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+    ```
+  - 
+
+
 
 
 

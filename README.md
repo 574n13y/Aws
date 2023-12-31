@@ -5,7 +5,7 @@
 - [AWS Resources with Terraform, Jenkins ci-cd, and Hosting a static website in s3](https://github.com/574n13y/Aws/tree/main/AWS%20Resources%20with%20Terraform%2C%20Jenkins%20ci-cd%2C%20and%20Hosting%20a%20static%20website%20in%20s3)
 - [Amazon App Deployment: A DevSecOps Approach with Terraform and Jenkins CI/CD](https://github.com/574n13y/Aws/tree/main/Amazon%20App%20Deployment%20A%20DevSecOps%20Approach%20with%20Terraform%20and%20Jenkins%20CICD)
 - [Attach an Amazon EBS volume to an instance](https://github.com/574n13y/Aws/tree/main/Attach%20an%20Amazon%20EBS%20volume%20to%20an%20instance)
-- [CI CD pipeline](Deploying a Django notes app on an EC2 instance using Jenkins declarative CI/CD pipeline.)
+- [CI CD pipeline](https://github.com/574n13y/Aws/tree/main/CI%20CD%20pipeline)
 - [Create and manipulate databases using containers](https://github.com/574n13y/Aws/tree/main/Create%20and%20manipulate%20databases%20using%20containers)
 - [Creating AWS Billing Alarm in Grafana](https://github.com/574n13y/Aws/tree/main/Creating%20AWS%20Billing%20Alarm%20in%20Grafana)
 - [Deploying a web application using Nginx server and Reverse Proxy](https://github.com/574n13y/Aws/tree/main/Deploying%20a%20web-application%20using%20Nginx%20server%20and%20Reverse%20Proxy)

@@ -2,20 +2,20 @@
 
 [![Website](https://github.com/574n13y/Aws/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/574n13y/Aws/actions/workflows/jekyll-gh-pages.yml)
 
-- [AWS Resources with Terraform, Jenkins ci-cd, and Hosting a static website in s3](https://github.com/574n13y/Aws/tree/main/AWS%20Resources%20with%20Terraform%2C%20Jenkins%20ci-cd%2C%20and%20Hosting%20a%20static%20website%20in%20s3)
-- [Amazon App Deployment: A DevSecOps Approach with Terraform and Jenkins CI/CD](https://github.com/574n13y/Aws/tree/main/Amazon%20App%20Deployment%20A%20DevSecOps%20Approach%20with%20Terraform%20and%20Jenkins%20CICD)
-- [Attach an Amazon EBS volume to an instance](https://github.com/574n13y/Aws/tree/main/Attach%20an%20Amazon%20EBS%20volume%20to%20an%20instance)
-- [CI CD pipeline](https://github.com/574n13y/Aws/tree/main/CI%20CD%20pipeline)
-- [Create and manipulate databases using containers](https://github.com/574n13y/Aws/tree/main/Create%20and%20manipulate%20databases%20using%20containers)
-- [Creating AWS Billing Alarm in Grafana](https://github.com/574n13y/Aws/tree/main/Creating%20AWS%20Billing%20Alarm%20in%20Grafana)
-- [Deploying a web application using Nginx server and Reverse Proxy](https://github.com/574n13y/Aws/tree/main/Deploying%20a%20web-application%20using%20Nginx%20server%20and%20Reverse%20Proxy)
-- [Host a static website Windows IIS](https://github.com/574n13y/Aws/tree/main/Host%20a%20static%20website%20Windows%20IIS)
-- [Host a static website on AWS](https://github.com/574n13y/Aws/tree/main/Host%20a%20static%20website%20on%20AWS)
-- [Linux apache server via terraform](https://github.com/574n13y/Aws/tree/main/Linux%20apache%20server%20via%20terraform)
-- [Retrieve instance metadata](https://github.com/574n13y/Aws/tree/main/Retrieve%20instance%20metadata)
-- [VPC with terraform](https://github.com/574n13y/Aws/tree/main/VPC%20with%20terraform)
-- [Visualize Data using Amazon QuickSight](https://github.com/574n13y/Aws/tree/main/Visualize%20Data%20using%20Amazon%20QuickSight)
-- [Wordpress instance in Lightsail](https://github.com/574n13y/Aws/tree/main/Wordpress%20instance%20in%20Lightsail)
+- [AWS Resources with Terraform, Jenkins ci-cd, and Hosting a static website in s3](https://github.com/574n13y/Aws/tree/main/AWS%20Resources%20with%20Terraform%2C%20Jenkins%20ci-cd%2C%20and%20Hosting%20a%20static%20website%20in%20s3){:target="_blank"}
+- [Amazon App Deployment: A DevSecOps Approach with Terraform and Jenkins CI/CD](https://github.com/574n13y/Aws/tree/main/Amazon%20App%20Deployment%20A%20DevSecOps%20Approach%20with%20Terraform%20and%20Jenkins%20CICD){:target="_blank"}
+- [Attach an Amazon EBS volume to an instance](https://github.com/574n13y/Aws/tree/main/Attach%20an%20Amazon%20EBS%20volume%20to%20an%20instance){:target="_blank"}
+- [CI CD pipeline](https://github.com/574n13y/Aws/tree/main/CI%20CD%20pipeline){:target="_blank"}
+- [Create and manipulate databases using containers](https://github.com/574n13y/Aws/tree/main/Create%20and%20manipulate%20databases%20using%20containers){:target="_blank"}
+- [Creating AWS Billing Alarm in Grafana](https://github.com/574n13y/Aws/tree/main/Creating%20AWS%20Billing%20Alarm%20in%20Grafana){:target="_blank"}
+- [Deploying a web application using Nginx server and Reverse Proxy](https://github.com/574n13y/Aws/tree/main/Deploying%20a%20web-application%20using%20Nginx%20server%20and%20Reverse%20Proxy){:target="_blank"}
+- [Host a static website Windows IIS](https://github.com/574n13y/Aws/tree/main/Host%20a%20static%20website%20Windows%20IIS){:target="_blank"}
+- [Host a static website on AWS](https://github.com/574n13y/Aws/tree/main/Host%20a%20static%20website%20on%20AWS){:target="_blank"}
+- [Linux apache server via terraform](https://github.com/574n13y/Aws/tree/main/Linux%20apache%20server%20via%20terraform){:target="_blank"}
+- [Retrieve instance metadata](https://github.com/574n13y/Aws/tree/main/Retrieve%20instance%20metadata){:target="_blank"}
+- [VPC with terraform](https://github.com/574n13y/Aws/tree/main/VPC%20with%20terraform){:target="_blank"}
+- [Visualize Data using Amazon QuickSight](https://github.com/574n13y/Aws/tree/main/Visualize%20Data%20using%20Amazon%20QuickSight){:target="_blank"}
+- [Wordpress instance in Lightsail](https://github.com/574n13y/Aws/tree/main/Wordpress%20instance%20in%20Lightsail){:target="_blank"}
 
 
 ## Aws using Iaac Tool ie Terraform 

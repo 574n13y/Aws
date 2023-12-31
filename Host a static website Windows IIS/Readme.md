@@ -1,4 +1,4 @@
-# Cteating a Static Website in Windows Machine Using IIS
+# Creating a Static Website in Windows Machine Using IIS
 
 ## I have used TF & Terraform cloud as backend to store tf files :-
 - [main.tf]()

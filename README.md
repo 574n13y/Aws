@@ -7,7 +7,6 @@
 - [Attach an Amazon EBS volume to an instance](https://github.com/574n13y/Aws/tree/main/Attach%20an%20Amazon%20EBS%20volume%20to%20an%20instance){:target="_blank"}
 - [CI CD pipeline](https://github.com/574n13y/Aws/tree/main/CI%20CD%20pipeline){:target="_blank"}
 - [Create and manipulate databases using containers](https://github.com/574n13y/Aws/tree/main/Create%20and%20manipulate%20databases%20using%20containers){:target="_blank"}
-- [Creating AWS Billing Alarm in Grafana](https://github.com/574n13y/Aws/tree/main/Creating%20AWS%20Billing%20Alarm%20in%20Grafana){:target="_blank"}
 - [Deploying a web application using Nginx server and Reverse Proxy](https://github.com/574n13y/Aws/tree/main/Deploying%20a%20web-application%20using%20Nginx%20server%20and%20Reverse%20Proxy){:target="_blank"}
 - [Host a static website Windows IIS](https://github.com/574n13y/Aws/tree/main/Host%20a%20static%20website%20Windows%20IIS){:target="_blank"}
 - [Host a static website on AWS](https://github.com/574n13y/Aws/tree/main/Host%20a%20static%20website%20on%20AWS){:target="_blank"}
